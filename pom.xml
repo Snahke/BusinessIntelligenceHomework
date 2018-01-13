@@ -11,7 +11,7 @@
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
         <encoding>UTF-8</encoding>
-        <scala.version>2.12.4</scala.version>
+        <scala.version>2.11.11</scala.version>
         <scala.compat.version>2.11</scala.compat.version>
     </properties>
 
@@ -38,13 +38,6 @@
             <version>2.2.0</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.crealytics/spark-excel -->
-        <dependency>
-            <groupId>com.crealytics</groupId>
-            <artifactId>spark-excel_2.11</artifactId>
-            <version>0.9.9</version>
-        </dependency>
-
         <dependency>
             <groupId>com.crealytics</groupId>
             <artifactId>spark-excel_2.11</artifactId>
@@ -54,24 +47,24 @@
 
         <!--&lt;!&ndash; https://mvnrepository.com/artifact/com.ibm.db2.jcc/db2jcc4 &ndash;&gt;-->
         <!--<dependency>-->
-            <!--<groupId>com.ibm.db2.jcc</groupId>-->
-            <!--<artifactId>db2jcc4</artifactId>-->
-            <!--<version>10.1</version>-->
+        <!--<groupId>com.ibm.db2.jcc</groupId>-->
+        <!--<artifactId>db2jcc4</artifactId>-->
+        <!--<version>10.1</version>-->
         <!--</dependency>-->
 
         <!--&lt;!&ndash; https://mvnrepository.com/artifact/com.ibm.db2/db2jcc_license_cu &ndash;&gt;-->
         <!--<dependency>-->
-            <!--<groupId>com.ibm.db2</groupId>-->
-            <!--<artifactId>db2jcc_license_cu</artifactId>-->
-            <!--<version>8.1</version>-->
+        <!--<groupId>com.ibm.db2</groupId>-->
+        <!--<artifactId>db2jcc_license_cu</artifactId>-->
+        <!--<version>8.1</version>-->
         <!--</dependency>-->
 
 
         <!--&lt;!&ndash; https://mvnrepository.com/artifact/com.ibm.db2/db2jcc &ndash;&gt;-->
         <!--<dependency>-->
-            <!--<groupId>com.ibm.db2</groupId>-->
-            <!--<artifactId>db2jcc</artifactId>-->
-            <!--<version>8.1</version>-->
+        <!--<groupId>com.ibm.db2</groupId>-->
+        <!--<artifactId>db2jcc</artifactId>-->
+        <!--<version>8.1</version>-->
         <!--</dependency>-->
 
         <!-- Test -->
@@ -141,5 +134,5 @@
             <!--</plugin>-->
         </plugins>
     </build>
-    
+
 </project>
